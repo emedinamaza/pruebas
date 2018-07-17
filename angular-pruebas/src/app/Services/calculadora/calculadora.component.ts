@@ -13,5 +13,11 @@ export class CalculadoraComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
+2
+3
+function sum(): number{
+    var sum=this.op1+this.op2;
+  return sum ;
+}
 }
