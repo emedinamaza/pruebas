@@ -1,13 +1,9 @@
-<p>
-  calculadora works!
-</p>
+
 <span>
-    
-    <!-- <input id="id1" (keyup)="imprimirnumero1($event)" type="number" name="" placeholder="number"> -->
-    
-    <!-- <input id="id2" (keyup)="imprimirnumero2($event)" type="number" name="" placeholder="number"> -->
-    <input [(ngModel)]="op1" type="number" name="" placeholder="number">
-    <input [(ngModel)]="op2" type="number" name="" placeholder="number">
+  <div>
+    <input [(ngModel)]="op1" type="number" name="" placeholder="numero 1 ">
+    <input [(ngModel)]="op2" type="number" name="" placeholder="numero 2">
+  </div>  
     <button (click)="sumar()">Sumar</button>
     <button (click)="restar()">Restar</button>
     <button (click)="multiplicar()">Multiplicar</button>
@@ -15,10 +11,10 @@
     <br>
     <p>El numero 1 es {{this.op1}}</p>
     <br>
-    <br>
+
     <p>El numero 2 es {{this.op2}}</p>
     <br>
-    {{this.res}}
+    <h4>El resultado es {{this.res}}</h4>
    
 </span>
 

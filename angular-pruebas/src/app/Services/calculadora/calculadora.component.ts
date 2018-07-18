@@ -1,34 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { NgModule } from '@angular/core';
-
-
+import { Component } from '@angular/core';
 @Component({
   selector: 'calculadora',
   templateUrl: './calculadora.component.html',
   styleUrls: ['./calculadora.component.css']
 })
 export class CalculadoraComponent {
- public op1:number;
-  public op2:number;
-  resultado;
-  res;
-
-  constructor() { }
-
-  ngOnInit() {
-
-
-  }
-
-  imprimirnumero1( evento){
-  this.op1=evento.key;
-  
-  }
-  imprimirnumero2( evento){
-    this.op2=evento.key;
-   
-    }
-
+public op1;
+public op2;
+public res;
   sumar() {
     this.res = this.op1 + this.op2;
   }
