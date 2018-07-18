@@ -5,12 +5,18 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Views/home/home.component';
 import { CalculadoraComponent } from './Services/calculadora/calculadora.component';
 import { AppRoutingModule } from './app-routing.module';
+import { MediaComponent } from './Services/media/media.component';
+import { OtherComponent } from './Services/other/other.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CalculadoraComponent
+    CalculadoraComponent,
+    MediaComponent,
+    OtherComponent,
+    
   ],
   imports: [
     BrowserModule, 

@@ -22,6 +22,7 @@ public res;
 
   dividir() {
     this.res = this.op1 / this.op2;
+    
   }
 
 }
