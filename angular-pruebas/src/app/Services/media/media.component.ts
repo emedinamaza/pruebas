@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-media',
@@ -11,5 +11,14 @@ export class MediaComponent implements OnInit {
 
   ngOnInit() {
   }
+   
+  primerdisco = {
+    id:1,
+    name:"Dark Side of the Moon",
+    grupo:"Pink Floyd"
+    };
+  borrarDisco(){}
 
 }
+
+

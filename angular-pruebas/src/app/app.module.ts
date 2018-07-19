@@ -7,6 +7,7 @@ import { CalculadoraComponent } from './Services/calculadora/calculadora.compone
 import { AppRoutingModule } from './app-routing.module';
 import { MediaComponent } from './Services/media/media.component';
 import { OtherComponent } from './Services/other/other.component';
+import { MediaItemComponent } from './Services/media/media-item/media-item.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { OtherComponent } from './Services/other/other.component';
     CalculadoraComponent,
     MediaComponent,
     OtherComponent,
+    MediaItemComponent,
     
   ],
   imports: [
