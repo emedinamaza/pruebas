@@ -1,10 +1,16 @@
+<!--Attribute directives: built in
+[ngClass]="{'clase css que crea': variableacumplir===valorvariable,variableacumplir2===valorvariable2 }"
+-->
+<header>
+    <div>
+     hola {{discos | categoryList }}
+    </div>
+</header>
+<app-media-item
+        *ngFor="let compacto of discos"
+        [dado]="compacto"
+        [ngClass]="{'agotado-true ': compacto.agotado===true,'agotado-false ': compacto.agotado===false }">
 
-<p>
-  media works!
-</p>
-
-<app-media-item [disco]="primerdisco"
-                (delete)="borrarDisco($event)"
->
 
 </app-media-item>
+

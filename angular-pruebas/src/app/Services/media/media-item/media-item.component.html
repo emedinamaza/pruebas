@@ -1,3 +1,21 @@
-<p>{{disco.id}}</p>
-<p>{{disco.name}}</p>
-<p>{{disco.grupo}}</p>
+
+<p>{{dado.id}}</p>
+<!--se pueden interpolar varias pipes consecutivas-->
+<p>{{dado.name | slice: 0 : 15 | uppercase }}</p>
+<p>{{dado.grupo}}</p>
+<!--pipe
+valor a pasar a la pipe | nombre pipe-->
+<p>{{dado.fecha | date: 'mediumDate'}}</p>
+
+<p>Hoy es {{today | date}}</p>
+
+<p [favoritito]="dado.favorite" >favorito </p>
+
+<!-- si se cumple esta directiva  -->
+<a si *ngIf="dado.agotado">No hay existencias</a>
+<!-- si se cumple esta otra, por ahora no hay else -->
+<a no *ngIf="!dado.agotado"> hay existencias</a>
+<button (click)="cambiar()">cambiar</button>
+
+<hr>
+

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  datos = ['1', '2 ','3','4', ];
+  datos = ['1', '2 ','3','4' ];
 
   miDato= this.datos[0];
 

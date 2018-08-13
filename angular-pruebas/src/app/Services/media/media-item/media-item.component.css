@@ -1,0 +1,12 @@
+li{
+  list-style-type: none;  
+  border: solid 1px grey;
+  width: 25%;
+}
+
+.queen{
+  color:green;
+}
+.extremo{
+  color: red;
+}

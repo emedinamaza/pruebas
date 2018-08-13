@@ -1,0 +1,6 @@
+Componemos plantillas HTML (templates) con el markup de Angular
+Escribimos Componentes para gestionar esas plantillas y Directivas que afectan al comportamiento de los componentes.
+Encapsulamos la lógica de la aplicación en Servicios
+Definimos un módulo principal que le dice a Angular qué es lo que incluye tu app (otros módulos), y cómo compilarlo y lanzarlo (NgModule)
+
+http://blog.enriqueoriol.com/2017/03/introduccion-angular-modulo-y-componente.html
